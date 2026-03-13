@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Ball Z Power Registration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+   <form class="container">
+    <div class="left-side">
+        <div class="img-one">
+            <img src="./sayans.png" alt="ssj-g-goku" width="230" height="150" class="r">
+        </div>
+        <div class="img-two">
+            <img src="./humans.jpg" alt="ssj-b-vegeta" width="240" height="200">
+        </div>
+        <div class="img-three">
+            <img src="./frost_demons.png" alt="super-broly" width="240" height="150">
+        </div>
+        <div class="img-four">
+            <img src="./namekians.jpg" alt="">
+        </div>
+        <div class="credit">
+            <p>images from: <a href="https://google.com/dragon ball">google </a>and gemini</p>
+        </div>
+        </div>
+    <div class="right-side">
+        <div class="container-one">
+           <h1>        
+Dragon Ball  Power Registration 
+Enter your warrior details and join  <span> the Z Fighters </span></h1>
+              
+        </div>
+        <div class="container-two">
+                    
+           <div class="first">
+            <div class="x">
+                <label for="warrior">WARRIOR NAME</label>
+                <input type="text" required>
+            </div>
+              <div class="y">
+    <label for="Race">RACE</label>
+                <input type="text" list="race" placeholder="Human" id="Race" required>
+                <datalist id="race">
+                    <option>Sayan</option>
+                    <option>Human</option>
+                    <option>Frost_demon</option>
+                    <option>Namakian</option>
+                    <option>Android</option>
+                </datalist>
+            </div>
+        </div>
+        <div class="second">
+            <div>
+                <label for="POWER LEVEL">powerlevel</label>
+                <input type="range" value="100"
+
+  name="powerlevel"
+  id="powerlevel"
+  min="0"
+  max="10000"
+  step="10"
+  class="the-last"/>
+<output class="price-output" for="price"></output>
+                
+            </div>
+            <div style="margin-left: 85px;">
+                <label for="PLANET">PLANET</label>
+                <input type="text" id = "PLANET" list = 'planet' placeholder="Earth" required>
+                <datalist id = 'planet'>
+                    <option>Vegeta</option>
+                    <option>Earth</option>
+                    <option>Cold Planet</option>
+                    <option>Namek</option>
+             </datalist>
+            </div>
+           </div>
+           <div class="third">
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" required class="l">
+            </div>
+            <div style="margin-left: 110px;">
+            <label for="password">password</label>
+            <input type="password" id="password" required>
+           </div>
+        </div>
+        <div class="container-three">
+            <button>[JOIN THE Z FIGHTERS]</button>
+        </div>
+    </div>
+    </div> 
+    </div>
+</form>
+<script>
+    const range = document.getElementById("powerlevel");
+    const output = document.querySelector("output")
+    output.textContent = range.value;
+    range.addEventListener('input',()=> {
+        output.textContent = range.value;
+    });
+</script>
+</body>
+</html>

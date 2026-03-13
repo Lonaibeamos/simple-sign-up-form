@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Dragon Ball';
+    src: url('DragonBall.woff2') format('woff2'),
+        url('DragonBall.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

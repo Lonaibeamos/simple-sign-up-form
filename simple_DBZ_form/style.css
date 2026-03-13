@@ -1,0 +1,122 @@
+.dela-gothic-one-regular {
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Dragon Ball';
+    src: url('DragonBall.woff2') format('woff2'),
+        url('DragonBall.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DB';
+    src: url('Dragonballtfb.woff2') format('woff2'),
+        url('Dragonballtfb.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+.bungee-regular {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.dela-gothic-one-regular {
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p{
+    font-family: "Bungee";
+    color: white;
+}
+label{
+    font-family: "Dela Gothic One";
+    font-size: 1.2rem;
+}
+.container{
+    display: flex;
+   margin: 0 auto;
+   justify-content: center;
+}
+.left-side{
+    background: url("./Screenshot\ from\ 2026-03-13\ 16-33-55.png");
+    background-size: contain ;
+}
+img{
+    width: 320px;
+    height: 200px;
+    opacity:1;
+    gap: 0;
+    margin-bottom: -12px
+}
+.r{
+    width: 319px;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    background: url("./beerus.jpg");
+    color: rgb(230, 183, 64);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;  
+}
+.container-one{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: gold;
+    margin-left: 10px;
+}
+span{
+    margin-left: 100px;
+}
+.container-two{
+    
+    margin-top: 150px;
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+.first,.second,.third{
+    
+    opacity: 0.9;
+    display: flex;   
+}
+.first:hover,.second:hover,.third:hover{
+    opacity: 1;
+    display: flex;   
+}
+
+.container-three{
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+    margin-top: 30px;
+    align-items: center;
+}
+button{
+    font-family: 'Dela Gothic One';
+    background: gold;
+    border: outset;
+    padding: 5px;
+    box-shadow: 1px 1px 1px yellow;
+    
+}
+label{
+     font-family: 'Dela Gothic One';
+}
